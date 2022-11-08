@@ -26,7 +26,7 @@
   We make use of the Support Vector Classifier (SVC). There are many optional parameters for this Algorithm. These parameters had a much more noticeable effect on the classification results than the parameters for my other Algorithms. I tested variations of the C, kernel, degree, gamma, shrinking, and class_weight parameters. In particular, varying the kernel and C values led to better results. 
   
 ## Discussion of Models and Results
-  Overall, the Support Vector Machine had the best results of the algorithms that I chose.
+  Overall, the [Support Vector Machine](https://scikit-learn.org/stable/modules/svm.html) had the best results of the algorithms that I chose.
   
   I believe that the Gaussian Naive Bayes was a poor choice for this dataset, and that another function for the probabilities of the Naive Bayes might have achieved better results. The lack of variable parameters coupled with the fact that the classes did not seem to have a Gaussian Distribution (though it is possible I could have adjusted them to a Gaussian shape) led to some variance in the Accuracy Scores. I was able to get my results consistently over 0.80 accuracy, but I think another Naive Bayes would have been a better fit. 
   
@@ -35,3 +35,9 @@
   The Support Vector Machine performed the best both before and after finding the correct parameters. The best results were achieved with a Polynomial kernel of Degree 3, interestingly with no Regularization parameter. I thought that the C value would have a greater impact on the results. With my selected parameters, I was able to consistently achieve accuracy scores above 0.87. 
   
   If I were to try other methods, I would first learn about Pipeline construction and implement one. Additionally, I now have a better idea of how I would set up the ovverarching Class to be slightly more modifiable. I would attempt another Naive Bayes (one better fit to this situation), as well as possible a more complex Gaussian Process (after ensuring the class results agree with a Gaussian distribution). 
+
+
+#Updates
+##Adding More Classifiers
+
+  I am working on adding in as many of the classifiers from SciKit Learn as possible. In addition, I am trying to find the best parameter combinations to use with my data. I am curious to see if these best-parameter classifiers will work well with other datasets as well. Additionally, I would like to know if different methods of cleaning the data would improve certain classifiers. 
