@@ -37,7 +37,7 @@
   If I were to try other methods, I would first learn about Pipeline construction and implement one. Additionally, I now have a better idea of how I would set up the ovverarching Class to be slightly more modifiable. I would attempt another Naive Bayes (one better fit to this situation), as well as possible a more complex Gaussian Process (after ensuring the class results agree with a Gaussian distribution). 
 
 
-#Updates
-##Adding More Classifiers
+# Updates
+## Adding More Classifiers
 
   I am working on adding in as many of the classifiers from SciKit Learn as possible. In addition, I am trying to find the best parameter combinations to use with my data. I am curious to see if these best-parameter classifiers will work well with other datasets as well. Additionally, I would like to know if different methods of cleaning the data would improve certain classifiers. 
